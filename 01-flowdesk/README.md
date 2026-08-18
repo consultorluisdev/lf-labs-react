@@ -1,75 +1,96 @@
-# React + TypeScript + Vite
+# LF Frontend Lab
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> Laboratório prático de Frontend, UI/UX, Design e React.
 
-Currently, two official plugins are available:
+## Sobre
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+O LF Frontend Lab é um laboratório de estudos criado para desenvolver, de forma progressiva, conhecimentos profissionais em desenvolvimento frontend e design de interfaces.
 
-## React Compiler
+O laboratório será composto por **30 projetos exclusivamente frontend**, desenvolvidos com React e tecnologias modernas.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+O objetivo não é apenas aprender código, mas desenvolver a capacidade de:
 
-## Expanding the ESLint configuration
+- analisar interfaces;
+- projetar experiências;
+- criar wireframes;
+- trabalhar com Figma;
+- construir Design Systems;
+- desenvolver interfaces responsivas;
+- criar componentes reutilizáveis;
+- consumir APIs;
+- aplicar boas práticas de frontend;
+- transformar ideias em produtos digitais.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## Objetivos
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+Ao longo dos 30 projetos serão trabalhados:
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+### UI/UX
+
+- Hierarquia visual
+- Arquitetura da informação
+- User Flow
+- Wireframes
+- Design de interfaces
+- Responsividade
+- Acessibilidade
+- Estados de interface
+- Microinterações
+
+### Design
+
+- Figma
+- Grid
+- Espaçamento
+- Tipografia
+- Cores
+- Iconografia
+- Componentes
+- Design Tokens
+- Design Systems
+
+### Frontend
+
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+- Axios
+- React Router
+- Componentização
+- Gerenciamento de estado
+- Integração com APIs
+- Performance
+- Boas práticas
+
+---
+
+## Metodologia
+
+Cada projeto seguirá um processo semelhante:
 
 ```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-
+Ideia
+  ↓
+Pesquisa de referências
+  ↓
+UX
+  ↓
+Wireframe
+  ↓
+Figma
+  ↓
+Design System
+  ↓
+Implementação React
+  ↓
+Responsividade
+  ↓
+Testes
+  ↓
+Refinamento
+  ↓
+Documentação
 ```
